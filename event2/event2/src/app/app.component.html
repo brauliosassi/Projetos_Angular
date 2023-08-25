@@ -1,0 +1,37 @@
+<div class="content">
+    <app-header></app-header>
+    <router-outlet>
+        <input type="text" value="New value"> <br> <br>
+<table  style="border-collapse: collapse;">
+            <thead  style="border: 1px solid black;">
+                <tr>
+                    <th [attr.colspan]="colVal"  style="border: 1px solid black;">
+                        Friends List
+                    </th>
+                </tr>
+            </thead>
+            <tbody  style="border: 1px solid black;">
+                <tr>
+                    <td>Lotanna</td>
+                    <td>Nwose</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                </tr>
+                <tr>
+                    <td>Olivia</td>
+                    <td>Pope</td>
+                </tr>
+                <tr>
+                    <td>Jeff</td>
+                    <td>Bezos</td>
+                </tr>
+            </tbody>
+        </table>
+    </router-outlet>
+
+</div>
+<div class="footer">
+    <app-footer></app-footer>
+</div>
